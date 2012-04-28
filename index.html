@@ -1,31 +1,56 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml">
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
 <head>
-    <meta charset='utf-8'>
-    <meta http-equiv="X-UA-Compatible" content="chrome=1">
-    <link rel="stylesheet" type="text/css" href="stylesheets/stylesheet.css" media="screen" />
-    <link rel="stylesheet" type="text/css" href="stylesheets/pygment_trac.css" media="screen" />
-    <link rel="stylesheet" type="text/css" href="stylesheets/print.css" media="print" />
-<title>My-apps by jrespuny</title>
-<link rel="stylesheet" href="style.css" />
+	<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+	<meta name="description" content="Your description goes here" />
+	<meta name="keywords" content="your,keywords,goes,here" />
+	<meta name="author" content="Your Name" />
+	<link rel="stylesheet" type="text/css" href="variant-light.css" title="iOS developer" media="screen,projection" />
+	<link rel="stylesheet" href="style.css" />
+	<title>jrespuny v1.0</title>
 </head>
+
 <body>
-    <header>
-      <div class="container">
-        <h1>My-apps</h1>
-        <h2>iOS developer <a href="mailto:jrespuny@gmail.com">jrespuny@gmail.com</a></h2>
-      </div>
-    </header>
+<div id="header">
+	<div id="title">
+		<h1><a href="index.html">jrespuny.com</a></h1>
+		<p class="slogan">Design is not just what it looks like and feels like. Design is how it works</p>
+	</div>
+</div>
 
-    <div class="container">
-      <section id="main_content">
-        <p><b>Work without intermediaries or subcontractors, directly with the developers</b></p>
-	<p>Competition is already present through the iPhone without being limited to one place or waiting for a machine to power on.<br>
-	Dou you want to be part of the competition?
+<div id="topmenu">
+	<p>
+		<strong class="hide">Main menu:</strong>
+		<a class="active" href="#">Home</a><span class="hide"> | </span>
+		<a href="about_us.html">About us</a><span class="hide"> | </span>
+		<a href="contact.html">Contact</a><span class="hide"> | </span>
 	</p>
-      </section>
-    </div>
-
+</div>
+<div id="wrap">
+<!--
+	<div id="sidebar">
+		<ul class="sidemenu">
+			<li><a class="active" href="#">Active page</a></li>  
+			<li><a href="#">Link two</a></li>
+			<li><a href="#">Link three</a></li>
+			<li><a href="#">Link four</a>
+				<ul>
+					<li><a href="#">Sub one</a></li>
+					<li><a href="#">Sub two</a></li>
+				</ul></li>
+			<li><a href="#">Link five</a></li>
+		</ul>
+		
+		<h2>Sample link list</h2>
+		<p>Use ul class="sidemenu" for the menu above and a regular ul element for the kind of list below:</p>
+		<ul>
+			<li><a href="http://andreasviklund.com/learn/tutorial-building-your-first-website-using-a-free-website-template-part-1/">Template tutorial</a></li>
+			<li><a href="http://andreasviklund.com/templates/">More free templates</a></li>  
+			<li><a href="http://andreasviklund.com/wordpress-themes/">WordPress themes</a></li>
+			<li><a href="http://www.svenskadomaner.se/order.asp?step=1&amp;ling=en&amp;ref=A">Domains and hosting</a></li>
+		</ul>
+	</div>
+-->	
 	<ul id="slideshow">
 		<li>
 			<h3>CityPlan</h3>
@@ -72,7 +97,7 @@
 	var slideshow=new TINY.slideshow("slideshow");
 	window.onload=function(){
 		slideshow.auto=true;
-		slideshow.speed=5;
+		slideshow.speed=7;
 		slideshow.link="linkhover";
 		slideshow.info="information";
 		slideshow.thumbs="slider";
@@ -84,5 +109,21 @@
 		slideshow.init("slideshow","image","imgprev","imgnext","imglink");
 	}
 </script>
+	
+	<div id="content">
+		<div class="post">
+			
+			<h2>Innovation distinguishes between a leader and a follower</h2>
+			<p>
+			Competition is always present with a click of an iPhone without being limited to one place and waiting for a machine power on.<br>
+			Are you in the competition?
+			</p>
+		</div>
+	</div>	
+</div>
+<div id="footer">
+	<p>Copyright &copy; 2012 <a href="mailto:jrespuny@gmail.com">Juan Ram&oacute;n Espuny</a></p>
+</div>
+
 </body>
 </html>
